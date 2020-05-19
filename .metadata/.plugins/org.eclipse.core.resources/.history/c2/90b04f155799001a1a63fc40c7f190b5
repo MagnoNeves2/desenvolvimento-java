@@ -1,0 +1,14 @@
+package trabalhandoComClasses;
+
+public class utilizandoClasseComDigitacao {
+
+	public static void main(String[] args) {
+		
+		//instanciar a classe Carro
+		//criar o objeto carroaluno
+
+		Carro carroaluno = new Carro("", "");
+		carroaluno.mostraMarcaCor();
+	}
+
+}

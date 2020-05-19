@@ -1,0 +1,20 @@
+package trabalhandoComClasses;
+
+public class UtilizandoClasse {
+
+	public static void main(String[] args) {
+		//variáveis que serão parâmetros do método construtor
+		String cor = "não sei";
+		String marca = "não sei também";
+		
+		//Insânciando a classe Carro
+		//criando o objeto meucarro
+		Carro meucarro = new Carro(cor, marca);
+		meucarro.mostraMarcaCor();
+		
+		Carro meuOutroCarro = new Carro(cor, marca);
+		meuOutroCarro.getCor();
+
+	}
+
+}

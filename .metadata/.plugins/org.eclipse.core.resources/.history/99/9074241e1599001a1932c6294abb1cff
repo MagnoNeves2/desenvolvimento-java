@@ -1,0 +1,19 @@
+package JavaTeste;
+
+import java.util.Scanner;
+
+public class Matriz1 {
+	public static void main (String args[]) {
+		int [][] matriz = new int[3][3];
+		
+		Scanner entrada = new Scanner (System.in);
+		System.out.println("Matriz M[3][3]\n");
+		
+		
+		
+		
+		
+		
+		
+	}
+}
