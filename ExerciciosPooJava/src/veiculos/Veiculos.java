@@ -9,8 +9,17 @@ public class Veiculos {
 	private int portas;
 	private String dono;
 	private float velocidadeMax;
+	private float velocidade;
 	
 	
+	public float getVelocidade() {
+		return velocidade;
+	}
+
+	public void setVelocidade(float velocidade) {
+		this.velocidade = velocidade;
+	}
+
 	public float getVelocidadeMax() {
 		return velocidadeMax;
 	}
@@ -113,6 +122,18 @@ public class Veiculos {
 	}
 	
 	
+	public void curva() {
+		int velocidadeMaxima = 70;
+		
+		if(velocidade == 0) {
+			while(velocidade <= velocidadeMaxima) {
+				System.out.println(velocidade + "km/h");
+				System.out.println("Acelerando... CUIDADO!");
+				velocidade+= 5;
+			}
+			System.out.println("RISCO EMINENTE DE CAPOTAMENTO, CUIDADO!");
+		}
+	}
 	
 	
 	
