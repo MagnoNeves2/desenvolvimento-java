@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="model.Cachorro"/>
+<fullyQualifiedTypeName name="model.Gato"/>
+<fullyQualifiedTypeName name="model.Aeronave"/>
+<fullyQualifiedTypeName name="aeronaves.Aeronave"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
