@@ -13,14 +13,17 @@ public class ListaAlunoMap {
 		Aluno b = new Aluno("Maria Souza", "Python", 0);
 		Aluno c = new Aluno("Carla Silva", "Cloud", 0);
 		Aluno d = new Aluno("José Guerreiro", "MySQL", 0);
+		Aluno f = new Aluno("Ana", "MySQL", 0);
+		
 		
 		mapa.put("Carlos Ferreira",a); //Método para inserir na estrutura
 		mapa.put("Maria Souza",b);
 		mapa.put("Carla Silva",c);
 		mapa.put("José Guerreiro",d);
+		mapa.put("Ana",f);
 		
 		System.out.println(mapa);
-		System.out.println(mapa.get(" José Guerreiro ")); //recupera um valor em específico.
+		System.out.println("O valor a ser recuperado é: " + mapa.get("José Guerreiro")); //recupera um valor em específico.
 		
 		Collection<Aluno> alunos = mapa.values(); //retorna um *Collection* com os valores associados às chaves
 		
@@ -31,3 +34,6 @@ public class ListaAlunoMap {
 	}
 
 }
+
+//O MAP ORDENA POR ORDEM ALFABÉTICA, ENTRETANTO DE FORMA COMPARATIVA, JÁ Q SUA CHAVE TEM Q TER O MESMO NOME DE SEU VALOR.
+//O .GET SERVE PARA RETORNAR UM VALOE ESPECÍFICO, ENTÃO O VALOR A SER PROCURANDO TEM SER INFORMADO IGUAL ELE EXISTE DENTRO DO ARRAY. CASO SEJA INFORMADO ERRADO OU NÃO EXISTA, ELE RETORNARÁ NULL.

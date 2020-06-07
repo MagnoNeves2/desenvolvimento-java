@@ -15,6 +15,7 @@ public class Aluno {
 	public String toString() {
 		return this.nome;
 	}
+	
 
 	public String getNome() {
 		return nome;
